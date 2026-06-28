@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portada unificada del proyecto con acceso al prompt y a las dos landing pages generadas.">
+  <title>Proyecto IA | Portada de accesos</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Volver al inicio">
+      <span class="brand-icon" aria-hidden="true">IA</span>
+      <span>Proyecto Landing Pages</span>
+    </a>
+    <button class="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema"><span aria-hidden="true">◐</span></button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <p class="eyebrow">Portada unificada</p>
+        <h1 id="titulo">Tres accesos para revisar el prompt y las landing pages generadas.</h1>
+        <p>Esta interfaz funciona como entrada principal del deploy. Desde aca se puede abrir el prompt exacto utilizado y comparar las dos propuestas realizadas por agentes.</p>
+      </div>
+      <div class="status-panel" aria-label="Resumen del proyecto">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </section>
+
+    <section class="access-grid" aria-label="Accesos directos">
+      <a class="access-card" href="prompt.txt">
+        <span class="card-number">01</span>
+        <h2>Prompt utilizado</h2>
+        <p>Texto plano con el prompt exacto empleado para solicitar la portada y la documentacion del proyecto.</p>
+        <span class="card-action">Abrir prompt</span>
+      </a>
+      <a class="access-card" href="agente-1/index.html">
+        <span class="card-number">02</span>
+        <h2>Landing Page - Primer Agente</h2>
+        <p><strong>Agente:</strong> Codex Curador. <strong>Modelo:</strong> GPT-5. Landing premium para Orbia Signal.</p>
+        <span class="card-action">Ver landing 1</span>
+      </a>
+      <a class="access-card" href="agente-2/index.html">
+        <span class="card-number">03</span>
+        <h2>Landing Page - Segundo Agente</h2>
+        <p><strong>Agente:</strong> Codex Estratega. <strong>Modelo:</strong> GPT-5. Landing editorial para Aula Nexo.</p>
+        <span class="card-action">Ver landing 2</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Repositorio unico preparado para GitHub y deploy en Vercel.</span>
+    <a href="README.md">Ver README</a>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
