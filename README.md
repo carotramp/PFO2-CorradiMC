@@ -12,7 +12,7 @@ Repositorio de la Práctica Formativa Obligatoria 2. El objetivo de este proyect
 
 ## Deploy unificado
 
-🔗 **https://pfo2-prompt-engineering.vercel.app/**
+🔗 **https://pfo2-prompt-engineering-mu.vercel.app/**
 
 El enlace dirige a la portada principal que contiene los accesos al texto del prompt y a las dos Landing Pages generadas
 
