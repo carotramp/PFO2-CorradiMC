@@ -1,18 +1,20 @@
-﻿# Proyecto Landing Pages con IA
+﻿# PFO2: Prompt Engineering en Agentes de IA
 
-Portada unificada realizada con HTML, CSS y JavaScript. El archivo principal es `index.html` y contiene tres accesos directos: prompt utilizado, landing del Primer Agente y landing del Segundo Agente.
+Repositorio de la Práctica Formativa Obligatoria 2. El objetivo de este proyecto es diseñar y estructurar un único prompt inicial de alta precisión para generar una Landing Page, ejecutándolo en dos agentes de desarrollo distintos para comparar su capacidad de resolución autónoma.
 
 ## Datos del estudiante
 
-- Nombre y apellido: Completar
-- Materia: Completar
-- Comision/curso: Completar
+- Nombre y apellido: Maria Carolina Corradi
+- Materia: Desarrollo de Sistemas Web (Front End)
+- Comision/curso: Comisión de los Viernes
 - Docente: Completar
 - Fecha de entrega: Completar
 
 ## Deploy unificado
 
-- Vercel: Completar con el enlace del deploy. Debe apuntar a la portada principal con las tres opciones.
+🔗 **https://pfo2-prompt-engineering.vercel.app/**
+
+El enlace dirige a la portada principal que contiene los accesos al texto del prompt y a las dos Landing Pages generadas
 
 ## Agentes y modelos
 
@@ -20,30 +22,23 @@ Portada unificada realizada con HTML, CSS y JavaScript. El archivo principal es 
 - Modelo utilizado: GPT-5
 - Sitio generado: `agente-1/index.html`
 
-- Segundo Agente: Codex Estratega
-- Modelo utilizado: GPT-5
+- Segundo Agente: Cursor 
+- Modelo utilizado: Composer 2.5 Fast
 - Sitio generado: `agente-2/index.html`
 
 ## Prompt exacto utilizado
 
 ```text
-realizar una interfaz de acceso (portada html, con css y javascript), una pagina de portada que contenga tres accesos directos:
-
-Link 1: El texto plano del prompt utilizado.
-
-Link 2: Landing Page generada por el Primer Agente (especificando nombre del agente y modelo de lenguaje usado).
-
-Link 3: Landing Page generada por el Segundo Agente (especificando nombre del agente y modelo de lenguaje usado).
-
-Repositorio y Documentacion: Subir todo el codigo del proyecto a un unico repositorio de GitHub. El archivo README.md del repositorio debe detallar obligatoriamente la siguiente informacion de forma clara:
-
-Datos del estudiante.
-
-Link al deploy unificado (un solo enlace de Vercel que dirija a la portada con las tres opciones).
-
-El prompt exacto utilizado.
-
-Capturas de pantalla de ambos sitios web generados.
+Eres un experto desarrollador frontend y diseñador UI/UX especializado en landing pages de alta conversión. Escribes HTML/CSS/JavaScript limpio y semántico, con un mucho detalle para un diseño visual distintivo. Evitas a siempre estéticas genéricas de "contenido generado por IA".
+Construye una landing page completa y lista para producción en un único archivo HTML autocontenido. Incluye todo el CSS y JavaScript inline. Que sea muy profesional: crea una implementación completa y visualmente impactante que sorprenda y genere admiracion.  Esta landing page será la primera presentacion para clientes potenciales. Un diseño genérico y olvidable perjudicará la conversión. El resultado debe sentirse diseñado genuinamente para el producto específico, no como una plantilla generica que se replique todo el tiempo. 
+Requisitos mínimos de la Landing Page a generar:
+○ Cabecera (Header con menú de navegación).
+○ Hero Section (Sección principal con título impactante y botón de llamada a la acción - CTA).
+○ Descripción / Sobre Nosotros.
+○ Sección de Servicios o Características principales.
+○ Testimonios o Reseñas de clientes.
+○ Formulario de contacto (Maquetado visual, no requiere funcionalidad backend).
+○ Pie de página (Footer) con enlaces a redes sociales.
 ```
 
 ## Capturas de pantalla
